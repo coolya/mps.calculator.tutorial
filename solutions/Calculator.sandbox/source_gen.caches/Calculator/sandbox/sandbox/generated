@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="5wet1ytodkd08peuqps0r90n7ef4iw7">
-  <common hash="-97hen81zvfgpefl0h9ugg3vtjl0t6gk" />
-  <source id="308658663625919711" name="TestCalculator" hash="-ahc03nogbsnswiviyedlmqkf6f0nr8r">
-    <file name="TestCalculator" />
+<dependencies version="2" modelHash="-22w3rbea8c7o1cdpsdap7uojtfk3yr5">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <dep model="r:c7f83a04-6679-4bb4-92cb-298bf9b887bc(Calculator.generator.template.main@generator)" hash="9ydkcfh29bron4t0zsmlcczemrsf57u" />
+  <common hash="-da0xl3zwdwudr33lkzb20k6nx38jvgu">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="308658663625919711" name="TestCalculator" hash="696tc51qa34j42lq7u6tlgl26n842bn">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:c7f83a04-6679-4bb4-92cb-298bf9b887bc(Calculator.generator.template.main@generator)" />
+    <file name="TestCalculator.java" />
   </source>
 </dependencies>
 

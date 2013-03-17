@@ -16,6 +16,9 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="308658663625920444">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mze9.308658663625920442" resolveInfo="OutputField" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="308658663625945571">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mze9.308658663625945569" resolveInfo="InputFieldReference" />
+    </node>
   </roots>
   <root id="308658663625919303">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="308658663625919305">
@@ -74,6 +77,17 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="mze9.308658663625923029" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="308658663625920448" />
+    </node>
+  </root>
+  <root id="308658663625945571">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="308658663625945573">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="mze9.308658663625945570" />
+      <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="308658663625945574">
+        <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="308658663625945576">
+          <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+        </node>
+      </node>
     </node>
   </root>
 </model>
